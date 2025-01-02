@@ -35,19 +35,19 @@ class Owner:
         pass
 
         
-pet1 = Pet("Fido","dog")
+# pet1 = Pet("Fido","dog")
 
-pet2 = Pet("Whisker","cat") 
-pet3 = Pet("Tweety","bird")
+# pet2 = Pet("Whisker","cat") 
+# pet3 = Pet("Tweety","bird")
 
-owner1 = Owner("Mike")
+# owner1 = Owner("Mike")
 
-owner1.add_pet(pet1)
-owner1.add_pet(pet2)
-owner1.add_pet(pet3)
+# owner1.add_pet(pet1)
+# owner1.add_pet(pet2)
+# owner1.add_pet(pet3)
 
-sorted_pets = owner1.get_sorted_pets()
-for pet in sorted_pets:
-    print(f"'{pet.name}' is pet type of:'{pet.pet_type}'")
-print(owner1.pets(owner1))
+# sorted_pets = owner1.get_sorted_pets()
+# for pet in sorted_pets:
+#     print(f"'{pet.name}' is pet type of:'{pet.pet_type}'")
+# print(owner1.pets(owner1))
    
